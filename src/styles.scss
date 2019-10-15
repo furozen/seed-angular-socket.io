@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  background: url(assets/icons/icon.png) no-repeat center;
+  background-size: 150px 150px;
+}
